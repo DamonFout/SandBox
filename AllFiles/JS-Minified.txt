@@ -1,0 +1,1 @@
+function NewObject(t){var o=0;this.SayHello=function(e){o++,alert(t+e)},this.GetCount=function(){return o}}var obj=new NewObject("Message : ");obj.SayHello("You are welcome.");
